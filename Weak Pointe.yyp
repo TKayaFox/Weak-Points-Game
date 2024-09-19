@@ -36,6 +36,11 @@
   "resources":[
     {"id":{"name":"obj_monster","path":"objects/obj_monster/obj_monster.yy",},},
     {"id":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},},
+    {"id":{"name":"spr_test1","path":"sprites/spr_test1/spr_test1.yy",},},
+    {"id":{"name":"spr_test2","path":"sprites/spr_test2/spr_test2.yy",},},
+    {"id":{"name":"spr_test3","path":"sprites/spr_test3/spr_test3.yy",},},
+    {"id":{"name":"spr_test4","path":"sprites/spr_test4/spr_test4.yy",},},
+    {"id":{"name":"spr_test5","path":"sprites/spr_test5/spr_test5.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
