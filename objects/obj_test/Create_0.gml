@@ -1,11 +1,7 @@
 /// @description Test Face combinations for weapon kills
 
-//Build an array of weapon and facial feature types
-Weapons = [obj_stake, obj_mirror, obj_charms];
-Hair = ["human", "snakes", "horns"];
-Face = ["human","fangs","demon"];
-Skin = ["human", "green","red","white"];
-Ears = ["human", "pointed", "none"];
+//load weapon structures
+WeaponStructs();
 
 var combinations = 0;
 
@@ -41,7 +37,7 @@ for (var h=0 ; h < array_length(Hair) ; h++)
 				//Debug command show whether monster killable
 				if (options >0)
 				{
-					show_debug_message("Killable " + options + " methods");
+					show_debug_message("Killable");
 					combinations++;
 				}
 				else

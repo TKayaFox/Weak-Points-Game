@@ -44,6 +44,7 @@
     {"id":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},},
     {"id":{"name":"CanKill","path":"scripts/CanKill/CanKill.yy",},},
     {"id":{"name":"IsHuman","path":"scripts/IsHuman/IsHuman.yy",},},
+    {"id":{"name":"WeaponStructs","path":"scripts/WeaponStructs/WeaponStructs.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
