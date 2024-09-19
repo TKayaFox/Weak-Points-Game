@@ -50,6 +50,7 @@ for (var h=0 ; h < array_length(Hair) ; h++)
 }
 
 
+show_debug_message("Mob Combinatons = " + string(combinations));
 var k = combinations;
 
 

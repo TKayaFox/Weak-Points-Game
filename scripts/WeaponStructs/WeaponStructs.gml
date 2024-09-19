@@ -11,7 +11,7 @@ function WeaponStructs()
 	{
 	    hair_immunity: "horns",
 	    face_immunity: "demon",
-	    skin_immunity: "human",
+	    skin_immunity: "",
 	    ears_immunity: "human"
 	};
 	stakeWpn = 
@@ -19,14 +19,21 @@ function WeaponStructs()
 	    hair_immunity: "snakes",
 	    face_immunity: "human",
 	    skin_immunity: "red",
-	    ears_immunity: "pointed"
+	    ears_immunity: ""
 	};
 	charmWpn = 
 	{
 	    hair_immunity: "human",
-	    face_immunity: "fangs",
+	    face_immunity: "",
 	    skin_immunity: "green",
 	    ears_immunity: "none"
 	};
-	Weapons = [mirrorWpn,stakeWpn,charmWpn];
+	saltWpn = 
+	{
+	    hair_immunity: "",
+	    face_immunity: "fangs",
+	    skin_immunity: "human",
+	    ears_immunity: "pointed"
+	};
+	Weapons = [mirrorWpn,stakeWpn,charmWpn,saltWpn];
 }
