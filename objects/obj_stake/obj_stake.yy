@@ -1,12 +1,15 @@
 {
   "$GMObject":"",
   "%Name":"obj_stake",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_stake",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_weapon","path":"objects/obj_weapon/obj_weapon.yy",},"propertyId":{"name":"hair_immunity","path":"objects/obj_weapon/obj_weapon.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"horns",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_weapon","path":"objects/obj_weapon/obj_weapon.yy",},"propertyId":{"name":"face_immunity","path":"objects/obj_weapon/obj_weapon.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"human",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_weapon","path":"objects/obj_weapon/obj_weapon.yy",},"propertyId":{"name":"skin_immunity","path":"objects/obj_weapon/obj_weapon.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"green",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_weapon","path":"objects/obj_weapon/obj_weapon.yy",},"propertyId":{"name":"ears_immunity","path":"objects/obj_weapon/obj_weapon.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"human",},
+  ],
   "parent":{
     "name":"Weapons",
     "path":"folders/Objects/Weapons.yy",

@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"obj_weapon",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_weapon",
   "overriddenProperties":[],
@@ -25,7 +23,12 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"hair_immunity","filters":[],"listItems":[],"multiselect":false,"name":"hair_immunity","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"human","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"face_immunity","filters":[],"listItems":[],"multiselect":false,"name":"face_immunity","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"human","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"skin_immunity","filters":[],"listItems":[],"multiselect":false,"name":"skin_immunity","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"human","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"ears_immunity","filters":[],"listItems":[],"multiselect":false,"name":"ears_immunity","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"human","varType":2,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

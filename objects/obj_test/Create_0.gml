@@ -1,18 +1,7 @@
 /// @description Test Face combinations for weapon kills
 
-//enums for each monster part
-Weapons = ["Stake","Mirror","Rock_Salt","Rosary","Pass","Boat"];
-
-
-//Build an array of weapon types
-Weapons = Build_Weapons(Hair,Face,Skin,Ears);
-
-
-
-
-===========
-
-
+//Build an array of weapon and facial feature types
+Weapons = [obj_stake, obj_mirror, obj_charms];
 Hair = ["human", "snakes", "horns"];
 Face = ["human","fangs","demon"];
 Skin = ["human", "green","red","white"];
@@ -33,11 +22,31 @@ for (var h=0 ; h < array_length(Hair) ; h++)
 			for (var e=0 ; e < array_length(Ears) ; e++)
 			{
 				thisEars = Ears[e];
+				show_debug_message("Combination:  Hair " + thisHair + " Face: " + thisFace + " Skin " + thisSkin + ", Ears " + thisEars);
 				
-				//Determine if the monster can be defeated
-				if (Can_Kill(thisHair,thisFace,thisSkin,thisEars,Weapons))
+				var options =0;
+				
+				//Check how many weapons can kill
+				for (var w=0 ; w < array_length(Weapons) ; w++)
 				{
+					weapon = Weapons[w];
+					
+					//Determine if the monster can be defeated
+					if (CanKill(thisHair,thisFace,thisSkin,thisEars,weapon) || IsHuman(thisHair,thisFace,thisSkin,thisEars))
+					{
+						options ++;
+					}
+				}
+				
+				//Debug command show whether monster killable
+				if (options >0)
+				{
+					show_debug_message("Killable " + options + " methods");
 					combinations++;
+				}
+				else
+				{
+					show_debug_message("INVINCIBLE");						
 				}
 			}
 		}

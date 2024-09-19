@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"isKill",
+  "%Name":"CanKill",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"isKill",
+  "name":"CanKill",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
