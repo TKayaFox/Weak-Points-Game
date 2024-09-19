@@ -35,7 +35,7 @@
   "name":"Weak Pointe",
   "resources":[
     {"id":{"name":"obj_monster","path":"objects/obj_monster/obj_monster.yy",},},
-    {"id":{"name":"obj_test","path":"objects/obj_test/obj_test.yy",},},
+    {"id":{"name":"obj_weapon_test","path":"objects/obj_weapon_test/obj_weapon_test.yy",},},
     {"id":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},},
     {"id":{"name":"CanKill","path":"scripts/CanKill/CanKill.yy",},},
     {"id":{"name":"IsHuman","path":"scripts/IsHuman/IsHuman.yy",},},

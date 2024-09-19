@@ -4,6 +4,7 @@
 WeaponStructs();
 
 var combinations = 0;
+var total_methods = 0;
 
 //For each combination of facial features
 for (var h=0 ; h < array_length(Hair) ; h++)
@@ -39,6 +40,7 @@ for (var h=0 ; h < array_length(Hair) ; h++)
 				{
 					show_debug_message("Killable");
 					combinations++;
+					total_methods += options;
 				}
 				else
 				{
@@ -49,8 +51,8 @@ for (var h=0 ; h < array_length(Hair) ; h++)
 	}
 }
 
-
-show_debug_message("Mob Combinatons = " + string(combinations));
+average = combinations / total_methods;
+show_debug_message("Mob Combinatons = " + string(combinations) + " Average usable weapons per mob = " + string(average));
 var k = combinations;
 
 
