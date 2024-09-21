@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"CanKill",
+  "%Name":"initialize_monster_parts",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"CanKill",
+  "name":"initialize_monster_parts",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

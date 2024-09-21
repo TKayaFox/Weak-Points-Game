@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"IsHuman",
+  "%Name":"initialize_weapons",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"IsHuman",
+  "name":"initialize_weapons",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

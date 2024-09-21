@@ -1,8 +1,8 @@
 //Constructs a singular monster, and ensures it is killable with at least one weapon
-function BuildMonster()
+function build_monster()
 {
 	//Loop until the monster generated can be killed
-	var monster = [_hair,_face,_ears,_skin];
+	var _monster = [];
 	killable = false;
 	
 	while (!killable)
@@ -14,16 +14,17 @@ function BuildMonster()
 		var _ears =  irandom_range(0, array_length(obj_controller.parts.ears) - 1);
 		
 		//Check if Killable with any weapon
-		for (var _weaponIndex=0 ; _weaponIndex < array_length(Weapons) ; _weaponIndex++)
+		for (var _weapon_index=0 ; _weapon_index < array_length(weapons) ; _weapon_index++)
 		{
-			var _weapon = Weapons[_weaponIndex];
+			var _weapon = weapons[_weapon_index];
 					
 			//Determine if the monster can be defeated
-			if (CanKill(_hair,_face,_skin,_ears,_weapon))
+			if (can_kill(_hair,_face,_skin,_ears,_weapon))
 			{
 				killable = true;
+				 monster = [_hair,_face,_ears,_skin]
 			}
 		}
 	}
-	return monster;
+	return _monster;
 }

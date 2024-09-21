@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"BuildMonster",
+  "%Name":"build_monster",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"BuildMonster",
+  "name":"build_monster",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
