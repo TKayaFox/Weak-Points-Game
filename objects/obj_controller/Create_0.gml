@@ -1,3 +1,3 @@
 /// @description Initialize Weapon and Monster data
-BuildMonsterParts();
-BuildWeapons();
+parts = BuildMonsterParts();
+weapons = BuildWeapons();

@@ -27,11 +27,30 @@ function BuildWeapons()
 	};
 	saltWpn = 
 	{
-		name : "rock salt",
+		name : "Rocksalt",
 	    hair_immunity: "",
 	    face_immunity: "fangs",
 	    skin_immunity: "human",
 	    ears_immunity: "pointed"
 	};
-	Weapons = [mirrorWpn,stakeWpn,charmWpn,saltWpn];
+	boat = 
+	{
+		name : "Boat Keys",
+	    hair_immunity: "",
+	    face_immunity: "",
+	    skin_immunity: "",
+	    ears_immunity: ""
+	};
+	noKill = 
+	{
+		name : "Release",
+	    hair_immunity: "",
+	    face_immunity: "",
+	    skin_immunity: "",
+	    ears_immunity: ""
+	};
+	
+	//Return array of all weapon types
+	weapons = [mirrorWpn,stakeWpn,charmWpn,saltWpn,boat,noKill];
+	return weapons;
 }

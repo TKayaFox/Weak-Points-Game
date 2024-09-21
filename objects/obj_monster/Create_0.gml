@@ -1,6 +1,4 @@
 /// @description Declares monster types and stuff
-// You can write your code in this editor
-
 
 // _top = Sprites for the top of the head hat/hair
 // _face = Sprite to give face
