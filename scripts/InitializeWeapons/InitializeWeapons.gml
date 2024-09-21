@@ -1,36 +1,33 @@
 // Defines the different Weapon struct items
-function InitializeWeapons(parts)
+function InitializeWeapons(parts,spawnX,spawnY,gap)
 {
 	//Build Each weapon type and instantiate values
 	
-	mirrorWpn = instance_create_layer(x, y, "Instances", obj_weapon);
-		mirrorWpn.name = "Mirror";
-	    mirrorWpn.hair_immunity = parts.hair[2];
-	    mirrorWpn.face_immunity =  parts.face[2];
-	    mirrorWpn.face_immunity =  parts.skin[3];
-	    mirrorWpn.ears_immunity =  parts.ears[0];
-		mirrorWpn.Sprite = 
+	mirrorWpn = instance_create_layer(x, y, "Instances", obj_stake);
 		
-	charmWpn = instance_create_layer(x, y, "Instances", obj_weapon);
-		charmWpn.name = "Stake";
-	    charmWpn.hair_immunity =  parts.hair[1];
-	    charmWpn.face_immunity =  parts.face[0];
-	    charmWpn.ears_immunity =  parts.skin[2];
+	charmWpn = instance_create_layer(x, y, "Instances", obj_mirror);
 		
-	charmWpn = instance_create_layer(x, y, "Instances", obj_weapon);
-		charmWpn.name = "Charms";
-	    charmWpn.hair_immunity =  parts.hair[0];
-	    charmWpn.face_immunity =  parts.skin[1];
-	    charmWpn.ears_immunity =  parts.ears[1];
+	charmWpn = instance_create_layer(x, y, "Instances", obj_charms);
 		
-	saltWpn = instance_create_layer(x, y, "Instances", obj_weapon);
-		saltWpn.name = "Rocksalt";
-	    mirrorWpn.face_immunity =  parts.face[1];
-	    mirrorWpn.face_immunity =  parts.skin[0];
-	    mirrorWpn.ears_immunity =  parts.ears[2];
+	saltWpn = instance_create_layer(x, y, "Instances", obj_rocksalt);
 	
 	//store in array
 	weapons = [mirrorWpn,stakeWpn,charmWpn,saltWpn];
+	
+	
+	//move weapons into position
+	for (var _weaponIndex = 0; _weaponIndex < array_length(weapons); _weaponIndex++)
+	{
+		//Get the next weapon
+		weapon = weapons[_weaponIndex];
+	
+		//move item to spawnX and spawnY
+		weapon.x = spawnX;
+		weapon.y = spawnY;
+	
+		//get next coordinates by adding sprite width and gap to current spawnX
+		spawnX += gap + weapon.sprite_width;
+	}
 	
 	//Return array of all weapon types
 	return weapons;

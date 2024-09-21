@@ -11,16 +11,3 @@ spawnY = y;
 
 //Spawn all weapons in room starting from x and y then move into place
 weapons = InitializeWeapons(parts);
-
-for (var _weaponIndex = 0; _weaponIndex < array_length(weapons); _weaponIndex++)
-{
-	//Get the next weapon
-	weapon = weapons[_weaponIndex];
-	
-	//move item to spawnX and spawnY
-	weapon.x = spawnX;
-	weapon.y = spawnY;
-	
-	//get next coordinates by adding sprite width and gap to current spawnX
-	spawnX += itemGap + weapon.sprite_width;
-}
