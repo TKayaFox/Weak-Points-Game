@@ -2,7 +2,7 @@
 function BuildMonster()
 {
 	//Loop until the monster generated can be killed
-	var monster = [_hair,_face,_ears,_skin];
+	var _monster = [];
 	killable = false;
 	
 	while (!killable)
@@ -22,8 +22,9 @@ function BuildMonster()
 			if (CanKill(_hair,_face,_skin,_ears,_weapon))
 			{
 				killable = true;
+				 monster = [_hair,_face,_ears,_skin]
 			}
 		}
 	}
-	return monster;
+	return _monster;
 }
