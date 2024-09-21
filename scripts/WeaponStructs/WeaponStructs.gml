@@ -9,6 +9,7 @@ function WeaponStructs()
 
 	mirrorWpn = 
 	{
+		name : "mirror",
 	    hair_immunity: "horns",
 	    face_immunity: "demon",
 	    skin_immunity: "",
@@ -16,6 +17,7 @@ function WeaponStructs()
 	};
 	stakeWpn = 
 	{
+		name: "stake",
 	    hair_immunity: "snakes",
 	    face_immunity: "human",
 	    skin_immunity: "red",
@@ -23,6 +25,7 @@ function WeaponStructs()
 	};
 	charmWpn = 
 	{
+		name : "charm set",
 	    hair_immunity: "human",
 	    face_immunity: "",
 	    skin_immunity: "green",
@@ -30,6 +33,7 @@ function WeaponStructs()
 	};
 	saltWpn = 
 	{
+		name : "rock salt",
 	    hair_immunity: "",
 	    face_immunity: "fangs",
 	    skin_immunity: "human",

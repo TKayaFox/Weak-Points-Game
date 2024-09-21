@@ -19,9 +19,10 @@ for (var h=0 ; h < array_length(Hair) ; h++)
 			for (var e=0 ; e < array_length(Ears) ; e++)
 			{
 				thisEars = Ears[e];
-				show_debug_message("Combination:  Hair " + thisHair + " Face: " + thisFace + " Skin " + thisSkin + ", Ears " + thisEars);
+				var mobString = ("Combination: " + thisHair + ", " + thisFace + ", " + thisSkin + ", " + thisEars);
+				var killString = " Vulnerability:";
 				
-				var options =0;
+				var options = 0;
 				
 				//Check how many weapons can kill
 				for (var w=0 ; w < array_length(Weapons) ; w++)
@@ -29,23 +30,25 @@ for (var h=0 ; h < array_length(Hair) ; h++)
 					weapon = Weapons[w];
 					
 					//Determine if the monster can be defeated
-					if (CanKill(thisHair,thisFace,thisSkin,thisEars,weapon) || IsHuman(thisHair,thisFace,thisSkin,thisEars))
+					if (CanKill(thisHair,thisFace,thisSkin,thisEars,weapon))
 					{
 						options ++;
+						killString = killString +" " + weapon.name;
 					}
 				}
 				
 				//Debug command show whether monster killable
 				if (options >0)
 				{
-					show_debug_message("Killable");
 					combinations++;
 					total_methods += options;
 				}
 				else
 				{
-					show_debug_message("INVINCIBLE");						
+					killString = (" INVINCIBLE");						
 				}
+				
+				show_debug_message(string(combinations) + " " + mobString + killString + " " + string(options));
 			}
 		}
 	}
