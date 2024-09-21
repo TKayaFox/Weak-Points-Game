@@ -1,12 +1,6 @@
 // Defines the different Weapon struct items
-function WeaponStructs()
+function BuildWeapons()
 {
-	//Build an array of facial feature type
-	Hair = ["human", "snakes", "horns"];
-	Face = ["human","fangs","demon"];
-	Skin = ["human", "green","red","white"];
-	Ears = ["human", "pointed", "none"];
-
 	mirrorWpn = 
 	{
 		name : "mirror",
