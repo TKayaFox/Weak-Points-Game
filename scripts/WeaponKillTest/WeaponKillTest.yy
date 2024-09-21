@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"WeaponKillTest",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"WeaponKillTest",
+  "parent":{
+    "name":"Test",
+    "path":"folders/Scripts/Test.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

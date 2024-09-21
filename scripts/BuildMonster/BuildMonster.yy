@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"BuildMonster",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"BuildMonster",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
