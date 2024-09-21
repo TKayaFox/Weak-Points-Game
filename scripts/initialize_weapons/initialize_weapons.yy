@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"InitializeWeapons",
+  "%Name":"initialize_weapons",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"InitializeWeapons",
+  "name":"initialize_weapons",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

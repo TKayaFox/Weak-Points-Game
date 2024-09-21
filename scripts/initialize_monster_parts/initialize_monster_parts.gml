@@ -1,11 +1,11 @@
 // Sets up the base for all possible monster parts and stores them in an array.
-function InitializeMonsterParts()
+function initialize_monster_parts()
 {
 	//NOTE: Feel free to modify this so as needed, this is mostly made for balance testing for weapons.
 	//		Let me know if changed though so i can update the BuildWeapons logic to match
 	
 	//Hair Types
-	humanHair = 
+	human_hair = 
 	{
 		sprite : ""
 	};
@@ -19,7 +19,7 @@ function InitializeMonsterParts()
 	};
 	
 	//Face Types
-	humanFace = 
+	human_face = 
 	{
 		sprite : ""
 	};
@@ -27,17 +27,17 @@ function InitializeMonsterParts()
 	{
 		sprite : ""
 	};
-	demonFace = 
+	demon_face = 
 	{
 		sprite : ""
 	};
 	
 	//Ear types
-	humanEar = 
+	human_ear = 
 	{
 		sprite : ""
 	};
-	pointedEar = 
+	pointed_ear = 
 	{
 		sprite : ""
 	};
@@ -47,10 +47,10 @@ function InitializeMonsterParts()
 	};
 	
 	//skin color values
-	humanSkin = "";
-	paleSkin = "";
-	greenSkin = "";
-	redSkin = "";
+	human_skin = "";
+	pale_skin = "";
+	green_skin = "";
+	red_skin = "";
 	
 	
 	//NOTE: Please do not mess with the order of each part, this is important for the balancing of the weapons
@@ -58,10 +58,10 @@ function InitializeMonsterParts()
 	 _parts = 
 	 {
 		//Build an array of facial feature type
-		hair : [humanHair,snakes,horns],
-		face : [humanFace,fangs,demonFace],
-		skin : [humanSkin,greenSkin,redSkin,paleSkin],
-		ears : [humanEar,earless,pointedEar]
+		hair : [human_hair,snakes,horns],
+		face : [human_face,fangs,demon_face],
+		skin : [human_skin,green_skin,red_skin,pale_skin],
+		ears : [human_ear,earless,pointed_ear]
 	 };
 	return _parts
 }

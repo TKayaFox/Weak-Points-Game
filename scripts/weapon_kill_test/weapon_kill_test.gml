@@ -1,20 +1,19 @@
 
 /// @description Test combinations of face features to good weapon balance
 //
-function WeaponKillTest()
+function weapon_kill_test()
 {
 
-	//load weapon structures and monster parts
-	parts = InitializeMonsterParts();
-	InitializeWeapons(parts);
+//THIS CODE COMMENTED OUT IT NEEDS TO BE UPDATED TO USE THE NEW WAY OF HOLDING MONSTER PARTS
 
-	var combinations = 0;
-	var total_methods = 0;
+	////load weapon structures and monster parts
+	//parts = initialize_monster_parts();
+	//initialize_weapons(parts);
+
+	//var combinations = 0;
+	//var total_methods = 0;
 
 	//For each combination of facial features
-	
-	//THIS CODE COMMENTED OUT IT NEEDS TO BE UPDATED TO USE THE NEW WAY OF HOLDING MONSTER PARTS
-	
 	//for (var h=0 ; h < array_length(Hair) ; h++)
 	//{
 	//		thisHair = Hair[h];

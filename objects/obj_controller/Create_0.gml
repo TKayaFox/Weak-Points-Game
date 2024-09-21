@@ -2,12 +2,12 @@
 //Weapon load values
 
 //Get all Monster Parts and Weapons setup
-parts = InitializeMonsterParts();
+parts = initialize_monster_parts();
 
 //weapons load at controllers x and y, then are spread apart by "itemGap"
-itemGap = 5;
-spawnX = x;
-spawnY = y;	
+item_gap = 5;
+spawn_x = x;
+spawn_y = y;	
 
 //Spawn all weapons in room starting from x and y then move into place
-weapons = InitializeWeapons(parts);
+weapons = initialize_weapons(parts,spawn_x,spawn_y,item_gap);
