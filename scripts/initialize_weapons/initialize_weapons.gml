@@ -12,7 +12,7 @@ function initialize_weapons(_spawn_x,_spawn_y,_gap)
 	
 	
 	//move weapons into position
-	for (var _weapon_index = 0; _weapon_index < array_length(weapons); _weapon_index++)
+	for (var _weapon_index = 0; _weapon_index < array_length(_weapons); _weapon_index++)
 	{
 		//Get the next weapon
 		_weapon = _weapons[_weapon_index];
@@ -22,9 +22,9 @@ function initialize_weapons(_spawn_x,_spawn_y,_gap)
 		_weapon.y = _spawn_y;
 	
 		//get next coordinates by adding sprite width and gap to current spawnX
-		_spawn_x += _gap + weapon.sprite_width;
+		_spawn_x += _gap + _weapon.sprite_width;
 	}
 	
 	//Return array of all weapon types
-	return weapons;
+	return _weapons;
 }

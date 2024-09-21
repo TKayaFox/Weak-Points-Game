@@ -5,9 +5,9 @@
 parts = initialize_monster_parts();
 
 //weapons load at controllers x and y, then are spread apart by "itemGap"
-item_gap = 5;
+item_gap = 10;
 spawn_x = x;
 spawn_y = y;	
 
 //Spawn all weapons in room starting from x and y then move into place
-weapons = initialize_weapons(parts,spawn_x,spawn_y,item_gap);
+weapons = initialize_weapons(spawn_x,spawn_y,item_gap);
