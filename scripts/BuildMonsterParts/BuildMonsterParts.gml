@@ -1,6 +1,5 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function BuildMonsters()
+// Sets up the base for all possible monster parts and stores them in an array.
+function BuildMonsterParts()
 {
 	//NOTE: Feel free to modify this so as needed, this is mostly made for balance testing for weapons.
 	//		Let me know if changed though so i can update the BuildWeapons logic to match
