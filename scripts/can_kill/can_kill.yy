@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"can_kill",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"can_kill",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

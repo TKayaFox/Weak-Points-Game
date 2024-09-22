@@ -1,18 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_monster",
+  "%Name":"obj_stake",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_monster",
+  "name":"obj_stake",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Weapons",
+    "path":"folders/Objects/Weapons.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_weapon",
+    "path":"objects/obj_weapon/obj_weapon.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_stake",
+    "path":"sprites/spr_stake/spr_stake.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
