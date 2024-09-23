@@ -5,48 +5,21 @@ function initialize_monster_parts()
 	//		Let me know if changed though so i can update the BuildWeapons logic to match
 	
 	//Hair Types
-	human_hair = 
-	{
-		sprite : ""
-	};
-	snakes = 
-	{
-		sprite : ""
-	};
-	horns = 
-	{
-		sprite : ""
-	};
+	human_hair = spr_hair_human;
+	snakes = spr_hair_snakes;
+	horns = spr_hair_horns;
 	
 	//Face Types
-	human_face = 
-	{
-		sprite : ""
-	};
-	fangs = 
-	{
-		sprite : ""
-	};
-	demon_face = 
-	{
-		sprite : ""
-	};
+	human_face = spr_face_human;
+	vampire_face = spr_face_vampire;
+	demon_face = spr_face_demon;
 	
 	//Ear types
-	human_ear = 
-	{
-		sprite : ""
-	};
-	pointed_ear = 
-	{
-		sprite : ""
-	};
-	earless = 
-	{
-		sprite : ""
-	};
+	human_ear = spr_ears_human;
+	pointed_ear = spr_ears_pointed;
+	earless = spr_ears_empty;
 	
-	//skin color values
+	//skin color values?
 	human_skin = "";
 	pale_skin = "";
 	green_skin = "";
@@ -59,7 +32,7 @@ function initialize_monster_parts()
 	 {
 		//Build an array of facial feature type
 		hair : [human_hair,snakes,horns],
-		face : [human_face,fangs,demon_face],
+		face : [human_face,vampire_face,demon_face],
 		skin : [human_skin,green_skin,red_skin,pale_skin],
 		ears : [human_ear,earless,pointed_ear]
 	 };
