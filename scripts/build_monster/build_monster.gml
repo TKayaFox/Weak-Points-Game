@@ -1,48 +1,56 @@
 //Constructs a singular monster, and ensures it is killable with at least one weapon
 function build_monster()
 {
-	//Loop until the monster generated can be killed
-	killable = false;
+	//Check if spawning Cthulu (% chance)
+	obj_monster.is_cthulu = (obj_monster.cthulu_chance >= random(1));
 	
-	while (!killable)
+	//If Cthulu reset cthulu chance (obj_mosnter has seperate logic in draw event for drawing cthulu)
+	if (obj_monster.is_cthulu)
 	{
-		var length = array_length(obj_controller.parts.hair);
-		
-		//Randomize all parts
-		randomize();
-		var _hair_index = irandom(array_length(obj_controller.parts.hair)-1);
-		var _face_index =  irandom(array_length(obj_controller.parts.face)-1);
-		var _skin_index =  irandom(array_length(obj_controller.parts.skin)-1);
-		var _ears_index =  irandom(array_length(obj_controller.parts.ears)-1);
-		var _hair = obj_controller.parts.hair[_hair_index];
-		var _face = obj_controller.parts.face[_face_index];
-		var _skin = obj_controller.parts.skin[_skin_index];
-		var _ears = obj_controller.parts.ears[_ears_index];
-		
-		//Check if Killable with any weapon
-		var _weapon_index=0
-		
-		while (_weapon_index < array_length(obj_controller.weapons) && !killable )
-		{
-			var _weapon = obj_controller.weapons[_weapon_index];
-					
-			//Determine if the monster can be defeated
-			if (can_kill(_hair,_face,_skin,_ears,_weapon))
-			{
-				killable = true;
-				 _monster = 
-				 {
-					 hair :_hair,
-					 face : _face,
-					 ears : _ears,
-					 skin : _skin
-				 };
-			}
-			else
-			{
-				_weapon_index++;
-			}
-		}
+		obj_monster.cthulu_chance = .01; //1% chance of spawning again immediately
 	}
+	
+	// Otherwise randomize a new monster
+	else
+	{
+		//Loop until the monster generated can be killed
+		killable = false;
+	
+		while (!killable)
+		{
+			var length = array_length(obj_controller.parts.hair);
+		
+			_monster = randomize_parts();
+			
+			//Determine if the monster can be defeated
+			killable = is_killable(_monster.hair,_monster.face,_monster.skin,_monster.ears,obj_controller.weapons);			
+		}
+	
+		//Build a new monster and store in obj_monster
+		obj_monster.current_monster = _monster
+	}
+}
+
+// Randomize a combination of all parts
+function randomize_parts()
+{
+	//Randomize all parts
+	randomize();
+	var _hair_index = irandom(array_length(obj_controller.parts.hair)-1);
+	var _face_index =  irandom(array_length(obj_controller.parts.face)-1);
+	var _skin_index =  irandom(array_length(obj_controller.parts.skin)-1);
+	var _ears_index =  irandom(array_length(obj_controller.parts.ears)-1);
+	var _hair = obj_controller.parts.hair[_hair_index];
+	var _face = obj_controller.parts.face[_face_index];
+	var _skin = obj_controller.parts.skin[_skin_index];
+	var _ears = obj_controller.parts.ears[_ears_index];
+	_monster = 
+	{
+		hair :_hair,
+		face : _face,
+		skin : _skin,
+		ears : _ears
+	};
+		
 	return _monster;
 }

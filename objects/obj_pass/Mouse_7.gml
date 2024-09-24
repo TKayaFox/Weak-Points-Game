@@ -2,7 +2,7 @@
 
 //get Monster information
 _monster = obj_monster.current_monster;
-_hair = _monster.top;
+_hair = _monster.hair;
 _face = _monster.face;
 _skin = _monster.skin;
 _ears = _monster.ears;

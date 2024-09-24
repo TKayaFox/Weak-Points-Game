@@ -2,6 +2,8 @@
 function correct_choice()
 {
 	//increment correct guesses
+	obj_controller.success ++;
+	obj_monster.cthulu_chance += .05;
 	
 	//check for success
 	if (obj_controller.win_target <= obj_controller.success)
@@ -9,10 +11,10 @@ function correct_choice()
 		//go to win screen
 		room_goto(rm_endscreen);
 	}
-	else //draw a new monster
+	 //draw a new monster
+	else
 	{
 		//Generate a random combination of parts
 		parts = build_monster();
-		obj_monster.current_monster = new Monster(parts.hair,parts.face,parts.skin,parts.ears);
 	}
 }

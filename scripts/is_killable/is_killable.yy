@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Monster",
+  "%Name":"is_killable",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Monster",
+  "name":"is_killable",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

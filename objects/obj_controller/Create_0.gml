@@ -8,10 +8,11 @@ parts = initialize_monster_parts();
 item_gap = 10;
 spawn_x = x;
 spawn_y = y;	
+randomize();
 
 //Spawn all weapons in room starting from x and y then move into place
 weapons = initialize_weapons(spawn_x,spawn_y,item_gap,"Weapons");
 
 //Set win/loss values
-win_target = 5;
+win_target = 10;
 success = 0;

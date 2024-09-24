@@ -40,7 +40,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"Weak Pointe",
   "resources":[
@@ -69,7 +69,7 @@
     {"id":{"name":"initialize_monster_parts","path":"scripts/initialize_monster_parts/initialize_monster_parts.yy",},},
     {"id":{"name":"initialize_weapons","path":"scripts/initialize_weapons/initialize_weapons.yy",},},
     {"id":{"name":"is_human","path":"scripts/is_human/is_human.yy",},},
-    {"id":{"name":"Monster","path":"scripts/Monster/Monster.yy",},},
+    {"id":{"name":"is_killable","path":"scripts/is_killable/is_killable.yy",},},
     {"id":{"name":"weapon_kill_test","path":"scripts/weapon_kill_test/weapon_kill_test.yy",},},
     {"id":{"name":"Background","path":"sprites/Background/Background.yy",},},
     {"id":{"name":"Desk","path":"sprites/Desk/Desk.yy",},},
@@ -79,7 +79,6 @@
     {"id":{"name":"spr_controller","path":"sprites/spr_controller/spr_controller.yy",},},
     {"id":{"name":"spr_cthulu","path":"sprites/spr_cthulu/spr_cthulu.yy",},},
     {"id":{"name":"spr_desk","path":"sprites/spr_desk/spr_desk.yy",},},
-    {"id":{"name":"spr_ears_empty","path":"sprites/spr_ears_empty/spr_ears_empty.yy",},},
     {"id":{"name":"spr_ears_human","path":"sprites/spr_ears_human/spr_ears_human.yy",},},
     {"id":{"name":"spr_ears_pointed","path":"sprites/spr_ears_pointed/spr_ears_pointed.yy",},},
     {"id":{"name":"spr_face_demon","path":"sprites/spr_face_demon/spr_face_demon.yy",},},
@@ -91,6 +90,7 @@
     {"id":{"name":"spr_logo","path":"sprites/spr_logo/spr_logo.yy",},},
     {"id":{"name":"spr_menu","path":"sprites/spr_menu/spr_menu.yy",},},
     {"id":{"name":"spr_mirror","path":"sprites/spr_mirror/spr_mirror.yy",},},
+    {"id":{"name":"spr_monster_empty","path":"sprites/spr_monster_empty/spr_monster_empty.yy",},},
     {"id":{"name":"spr_placeholder","path":"sprites/spr_placeholder/spr_placeholder.yy",},},
     {"id":{"name":"spr_release","path":"sprites/spr_release/spr_release.yy",},},
     {"id":{"name":"spr_rock_salt","path":"sprites/spr_rock_salt/spr_rock_salt.yy",},},
