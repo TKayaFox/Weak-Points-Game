@@ -2,5 +2,7 @@
 function game_over()
 {
 	//Go to game over screen
-		room_goto(rm_endscreen);	
+	//room_goto(rm_endscreen);	
+	
+	correct_choice();
 }

@@ -2,8 +2,8 @@
 function correct_choice()
 {
 	//increment correct guesses
-	obj_controller.success ++;
-	obj_monster.cthulu_chance += .12;
+	//obj_controller.success ++;
+	obj_monster.cthulu_chance += .05;
 	
 	//check for success
 	if (obj_controller.win_target <= obj_controller.success)

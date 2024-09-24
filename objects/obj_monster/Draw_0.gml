@@ -20,6 +20,6 @@ else
 	
 	draw_sprite_ext(spr_base, 0, 383, 63, 1, 1, 0, color_overlay , transparency);
 	draw_sprite_ext(current_monster.hair, 0, 383, 63, 1, 1, 0,  c_white, transparency);
-	draw_sprite_ext(current_monster.face, 0, 384, 52, 1, 1, 0,  c_white, transparency);
+	draw_sprite_ext(current_monster.face, 0, 384, 52, 1, 1, 0,  c_white, 1);
 	draw_sprite_ext(current_monster.ears, 0, 384, 54, 1, 1, 0, color_overlay, transparency);
 }
