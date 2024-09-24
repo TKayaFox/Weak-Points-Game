@@ -20,10 +20,10 @@ function initialize_monster_parts()
 	earless = spr_ears_empty;
 	
 	//skin color values
-	human_skin = c_yellow;
-	pale_skin = c_white;
-	green_skin = c_green;
-	red_skin = c_red;
+	human_skin = #F4DFD6;
+	pale_skin = #FDF9F7;
+	green_skin = #a4e49a;
+	red_skin = #c95a5a;
 	
 	
 	//NOTE: Please do not mess with the order of each part, this is important for the balancing of the weapons

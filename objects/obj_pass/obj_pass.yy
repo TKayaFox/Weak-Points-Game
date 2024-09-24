@@ -11,7 +11,10 @@
     "name":"Weapons",
     "path":"folders/Objects/Weapons.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_weapon",
+    "path":"objects/obj_weapon/obj_weapon.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
