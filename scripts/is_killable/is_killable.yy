@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"is_killable",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Test",
+    "path":"folders/Scripts/Test.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
