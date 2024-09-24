@@ -6,9 +6,10 @@ function initialize_weapons(_spawn_x,_spawn_y,_gap,_layer)
 	_mirror_wpn = instance_create_layer(x, y, _layer, obj_mirror);
 	_charm_wpn = instance_create_layer(x, y, _layer, obj_charms);
 	_salt_wpn = instance_create_layer(x, y, _layer, obj_rocksalt);
+	_pass_wpn = instance_create_layer(x, y, _layer, obj_pass);
 	
 	//store in array
-	_weapons = [_mirror_wpn,_stake_wpn,_charm_wpn,_salt_wpn];
+	_weapons = [_mirror_wpn,_stake_wpn,_charm_wpn,_salt_wpn,_pass_wpn];
 	
 	
 	//move weapons into position
@@ -23,6 +24,12 @@ function initialize_weapons(_spawn_x,_spawn_y,_gap,_layer)
 	
 		//get next coordinates by adding sprite width and gap to current spawnX
 		_spawn_x += _gap + _weapon.sprite_width;
+		
+		if(_weapon_index >= array_length(_weapons) - 1){
+			with(obj_weapon){
+				initialized = true;
+			}
+		}
 	}
 	
 	//Return array of all weapon types
