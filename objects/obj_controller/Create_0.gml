@@ -5,7 +5,7 @@
 parts = initialize_monster_parts();
 
 //weapons load at controllers x and y, then are spread apart by "itemGap"
-item_gap = 0;
+item_gap = -25;
 spawn_x = 32;
 spawn_y = 416;	
 
