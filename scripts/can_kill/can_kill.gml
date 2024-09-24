@@ -6,7 +6,7 @@ function can_kill(_hair,_face,_skin,_ears,_weapon)
 	//Check for any immunities against the weapon
 	if ( _weapon.hair_immunity = _hair
 		|| _weapon.face_immunity = _face
-		|| we_weaponapon.skin_immunity = _skin
+		|| _weapon.skin_immunity = _skin
 		|| _weapon.ears_immunity = _ears)
 	{
 		_killable =false;
