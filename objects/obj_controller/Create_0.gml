@@ -11,3 +11,7 @@ spawn_y = 416;
 
 //Spawn all weapons in room starting from x and y then move into place
 weapons = initialize_weapons(spawn_x,spawn_y,item_gap,"Weapons");
+
+//Set win/loss values
+win_target = 5;
+success = 0;

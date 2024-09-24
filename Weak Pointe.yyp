@@ -61,6 +61,8 @@
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"build_monster","path":"scripts/build_monster/build_monster.yy",},},
     {"id":{"name":"can_kill","path":"scripts/can_kill/can_kill.yy",},},
+    {"id":{"name":"correct_choice","path":"scripts/correct_choice/correct_choice.yy",},},
+    {"id":{"name":"game_over","path":"scripts/game_over/game_over.yy",},},
     {"id":{"name":"initialize_monster_parts","path":"scripts/initialize_monster_parts/initialize_monster_parts.yy",},},
     {"id":{"name":"initialize_weapons","path":"scripts/initialize_weapons/initialize_weapons.yy",},},
     {"id":{"name":"is_human","path":"scripts/is_human/is_human.yy",},},
