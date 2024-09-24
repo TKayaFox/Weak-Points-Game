@@ -51,6 +51,7 @@
     {"id":{"name":"obj_charms","path":"objects/obj_charms/obj_charms.yy",},},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"obj_instructions","path":"objects/obj_instructions/obj_instructions.yy",},},
+    {"id":{"name":"obj_manual","path":"objects/obj_manual/obj_manual.yy",},},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
     {"id":{"name":"obj_mirror","path":"objects/obj_mirror/obj_mirror.yy",},},
     {"id":{"name":"obj_monster","path":"objects/obj_monster/obj_monster.yy",},},
