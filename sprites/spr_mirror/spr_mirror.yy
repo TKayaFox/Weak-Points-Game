@@ -23,7 +23,7 @@
   ],
   "name":"spr_mirror",
   "nineSlice":null,
-  "origin":9,
+  "origin":3,
   "parent":{
     "name":"Weapons",
     "path":"folders/Sprites/Weapons.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":0,
-    "yorigin":32,
+    "yorigin":87,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
