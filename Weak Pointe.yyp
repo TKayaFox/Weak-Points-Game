@@ -54,6 +54,7 @@
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
     {"id":{"name":"obj_mirror","path":"objects/obj_mirror/obj_mirror.yy",},},
     {"id":{"name":"obj_monster","path":"objects/obj_monster/obj_monster.yy",},},
+    {"id":{"name":"obj_pass","path":"objects/obj_pass/obj_pass.yy",},},
     {"id":{"name":"obj_rocksalt","path":"objects/obj_rocksalt/obj_rocksalt.yy",},},
     {"id":{"name":"obj_stake","path":"objects/obj_stake/obj_stake.yy",},},
     {"id":{"name":"obj_weapon","path":"objects/obj_weapon/obj_weapon.yy",},},
