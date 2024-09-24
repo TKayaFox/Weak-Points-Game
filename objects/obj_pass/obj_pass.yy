@@ -1,18 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_weapon",
+  "%Name":"obj_pass",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_weapon",
+  "name":"obj_pass",
   "overriddenProperties":[],
   "parent":{
     "name":"Weapons",
     "path":"folders/Objects/Weapons.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_weapon",
+    "path":"objects/obj_weapon/obj_weapon.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_placeholder",
-    "path":"sprites/spr_placeholder/spr_placeholder.yy",
+    "name":"spr_release",
+    "path":"sprites/spr_release/spr_release.yy",
   },
   "spriteMaskId":null,
   "visible":true,
