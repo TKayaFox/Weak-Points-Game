@@ -7,7 +7,7 @@ function correct_choice()
 	if (obj_controller.win_target <= obj_controller.success)
 	{
 		//go to win screen
-		room_goto(rm_menu);
+		room_goto(rm_endscreen);
 	}
 	else //draw a new monster
 	{
