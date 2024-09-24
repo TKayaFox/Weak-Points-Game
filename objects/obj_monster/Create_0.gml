@@ -12,8 +12,8 @@ function Monster(_top, _face, _skin, _ears) constructor
 	ears = _ears;
 }
 
-vampire_base = new Monster(spr_test1, spr_test2, c_red, spr_test4);
-demon_base = new Monster(spr_test4, spr_test3, c_blue, spr_test1);
+vampire_base = new Monster(spr_hair_human, spr_face_vampire, c_red, spr_ears_pointed);
+demon_base = new Monster(spr_hair_horns, spr_face_demon, c_blue, spr_ears_human);
 
 randomize();
 monster_bases = [vampire_base, demon_base];
