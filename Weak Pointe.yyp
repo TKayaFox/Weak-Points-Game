@@ -101,9 +101,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_endscreen","path":"rooms/rm_endscreen/rm_endscreen.yy",},},
     {"roomId":{"name":"rm_instructions","path":"rooms/rm_instructions/rm_instructions.yy",},},
-    {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},},
   ],
   "templateType":"game",
