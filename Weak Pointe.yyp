@@ -46,6 +46,7 @@
   "resources":[
     {"id":{"name":"font_normal","path":"fonts/font_normal/font_normal.yy",},},
     {"id":{"name":"font_pixel","path":"fonts/font_pixel/font_pixel.yy",},},
+    {"id":{"name":"obj_aftergamemenu","path":"objects/obj_aftergamemenu/obj_aftergamemenu.yy",},},
     {"id":{"name":"obj_boatKey","path":"objects/obj_boatKey/obj_boatKey.yy",},},
     {"id":{"name":"obj_charms","path":"objects/obj_charms/obj_charms.yy",},},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
@@ -57,6 +58,7 @@
     {"id":{"name":"obj_stake","path":"objects/obj_stake/obj_stake.yy",},},
     {"id":{"name":"obj_weapon","path":"objects/obj_weapon/obj_weapon.yy",},},
     {"id":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},},
+    {"id":{"name":"rm_endscreen","path":"rooms/rm_endscreen/rm_endscreen.yy",},},
     {"id":{"name":"rm_instructions","path":"rooms/rm_instructions/rm_instructions.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"build_monster","path":"scripts/build_monster/build_monster.yy",},},
@@ -103,6 +105,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"roomId":{"name":"rm_endscreen","path":"rooms/rm_endscreen/rm_endscreen.yy",},},
     {"roomId":{"name":"rm_instructions","path":"rooms/rm_instructions/rm_instructions.yy",},},
     {"roomId":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},},
   ],
