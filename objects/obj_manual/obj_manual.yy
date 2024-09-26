@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_boatKey",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_manual",
+  "eventList":[],
   "managed":true,
-  "name":"obj_boatKey",
+  "name":"obj_manual",
   "overriddenProperties":[],
   "parent":{
-    "name":"Weapons",
-    "path":"folders/Objects/Weapons.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_boat_keys",
-    "path":"sprites/spr_boat_keys/spr_boat_keys.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
