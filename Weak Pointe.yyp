@@ -40,7 +40,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.0.169",
+    "IDEVersion":"2024.6.2.162",
   },
   "name":"Weak Pointe",
   "resources":[
@@ -102,6 +102,8 @@
     {"id":{"name":"spr_test4","path":"sprites/spr_test4/spr_test4.yy",},},
     {"id":{"name":"spr_test5","path":"sprites/spr_test5/spr_test5.yy",},},
     {"id":{"name":"Sprite16","path":"sprites/Sprite16/Sprite16.yy",},},
+    {"id":{"name":"Sprite31","path":"sprites/Sprite31/Sprite31.yy",},},
+    {"id":{"name":"Sprite32","path":"sprites/Sprite32/Sprite32.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
