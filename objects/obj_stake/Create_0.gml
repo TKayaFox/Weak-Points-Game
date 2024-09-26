@@ -4,6 +4,6 @@
 event_inherited();
 
 name = "Stake";
-hair_immunity =  parts.hair[1];
-face_immunity =  parts.face[0];
-skin_immunity =  parts.skin[4];
+hair_immunity =  parts.hair[1]; //snakes
+face_immunity =  parts.face[0]; //human
+skin_immunity =  parts.skin[4]; //ghost

@@ -59,10 +59,10 @@ function monster_from_weapon(_weapon,_parts)
 	return _monster;
 }
 
-function randomize_part(weapon,parts)
+function randomize_part(_weapon,_parts)
 {
-	_part = noone;
-	_killable = false;
+	var _part = noone;
+	var _killable = false;
 	
 	//prevent infinite loop
     var _attempts = 0; 
@@ -72,8 +72,8 @@ function randomize_part(weapon,parts)
 	while (!_killable && _attempts < _max_attempts)
 	{
 		//grab a random part
-		var _part_index = irandom(array_length(parts)-1);
-		_part = parts[_part_index];
+		var _part_index = irandom(array_length(_parts)-1);
+		_part = _parts[_part_index];
 		
 		//Check for any immunities against the weapon
 		if ( _weapon.hair_immunity != _part
